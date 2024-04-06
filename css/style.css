@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    color: #D7D7D7;
+    background-color: #212121;
+    max-width: auto;
+}
+
+.container-1, .container-2, .container-3{
+    background-color: #1b1b1b;
+    margin-bottom: -100px;
+
+}
+
+header, nav, ul, li, a{
+    display: flex;
+    margin: auto; 
+    max-width: auto;
+    gap: 200px;
+    text-decoration: none;
+    color: #8f8d8d;
+    align-items: center;
+    font-family: "Nunito", sans-serif;
+    font-size: 15pt;
+}
+
+header ul a:hover{
+    color: #D7D7D7;
+    font-weight: bold;
+
+}
+
+h1{
+    background-color: #000000;
+    margin-left: 50px;
+    border-radius: 30pt;
+    width: 50px;
+    height: 50px;
+}
+
+h1 a{
+    color:  #D7D7D7;
+    font-size: 20pt;
+    margin-left: 12px;
+    margin-top: 7px;
+}
+
+h1 a:hover{
+    color: #ffffff;
+}
+
+.rectangle a{
+    font-size: 18pt;
+    background-color: #000000;
+    border-radius: 20pt;
+    padding: 6pt;
+    font-family: "Allerta Stencil", sans-serif;
+}
+
+.rectangle a:hover{
+    color: #ffffff;
+    font-weight: normal;
+    background-color: #3534313e;
+}
+
+h2{
+    font-size: 80pt;
+    font-family: "Koulen", sans-serif;
+    letter-spacing: 10pt;
+    text-align: center;
+    padding-bottom: 80pt;
+}
+
+h2:hover{
+    color: #8f8d8d;
+}
+
+h3{
+    font-family: "Koulen", sans-serif;
+    font-size: 50pt;
+    letter-spacing: 10pt;
+    margin-bottom: 0pt;
+    margin-left: 20px;
+}
+
+h4{
+    font-family: "Aleo", serif;
+    font-size: 20pt;
+    margin-bottom:1.5rem;
+    letter-spacing: 2pt;
+    margin-top: -10pt;
+    margin-left: 20px;
+}
+
+.text-1 p{
+    font-family: "Arimo", sans-serif;
+    font-size: 15pt;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+    padding-right: 30%;
+    margin-left: 20px;     
+}
+.container-2 h3{
+    padding-top: 4%;
+}
+.text-2 p{
+    font-family: "Arimo", sans-serif;
+    font-size: 15pt;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+    padding-right: 35%; 
+    padding-bottom: 2%;
+    margin-left: 20px;
+}
+
+.martin-sx{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 60pt;
+}
+
+.img-sx{
+    height: 260px;
+    width: 510px;
+    margin-left: 30px;
+}
+
+.martin-text-1{
+    padding-right: 130px;
+    font-size: 15pt;
+    font-family: "Arimo", sans-serif;
+    margin-left: 120px;
+    margin-bottom: 1.5rem;
+}
+
+.martin-dx{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.img-dx{
+    padding-right: 120px;
+    margin-left: 200px;
+    height: 260px;
+    width: 510px;
+    position: static;
+}
+
+.martin-text-2{
+    font-size: 15pt;
+    font-family: "Arimo", sans-serif;
+    padding-right: 80px;
+    margin-left: 140px;
+}    
+
+.img-ot{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.obama-img{
+    padding-right: 300px;
+    margin-left: 100px;
+    height: 320px;
+    width: 570px;
+    position: static;
+}
+
+.text-ot{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.obama-text{
+    margin-left: 90px;
+    padding-right: 50px;
+    font-size: 15pt;
+    font-family: "Arimo", sans-serif;
+    
+}
+
+.trump-img{
+    height: 320px;
+    width: 570px;
+    margin-left: -120px;
+}
+
+.trump-text{
+    margin-left: 70px;
+    padding-right: 60px;
+    font-size: 15pt;
+    font-family: "Arimo", sans-serif;
+}
+
+h5{
+    font-family: "Aleo", serif;
+    font-size: 20pt;
+    letter-spacing: 2pt;
+    margin-top: -10pt;
+    margin-left: 20px;
+
+}
+
+.text-4 p{
+    font-family: "Arimo", sans-serif;
+    font-size: 15pt;
+    line-height: 1.5;
+    padding-right: 150px;
+    margin-left: -455px;
+}
+
+.last-img{
+    width: 550px;
+    height: 650px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+    border-radius: 50px;
+
+}
+
+.griglia{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+}
+
+footer{
+    margin-top: 95px;
+    background-color: #0F0F0F;
+    height: 80px;
+    position: static;
+}
+
+span{
+    color: #D7D7D7;
+    margin-top: 20pt;
+    margin-left: -80px;
+}
+
+.footer-unico a{
+    text-decoration: none;
+    color: #D7D7D7;
+    font-family: "Aleo", serif; 
+    font-size: 15pt;
+}
+
+.footer-unico{
+    display: flex;
+    gap: 20px;
+    margin-left: 800px;
+    margin-top: 30px;
+}
+
+.footer-unico a:hover{
+    color:#ffffff;
+}
